@@ -1,6 +1,9 @@
 # Getting Started
 
-http://localhost:8081/ws-app/ws/countries.wsdl
+Spring Boot Apache CXF SOAP Service
+Spring Boot demo app uses Apache CXF to expose a simple SOAP endpoint.
+
+http://localhost:8081/ws-app/soap-api
 
 ### Reference Documentation
 For further reference, please consider the following sections:
