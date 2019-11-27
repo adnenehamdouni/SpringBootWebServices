@@ -17,9 +17,6 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <schema.dir>${project.basedir}/src/main/resources/soap/</schema.dir>
-        <output.dir>${project.basedir}/src/main/java</output.dir>
-
     </properties>
 
     <dependencies>
@@ -83,24 +80,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <!-- tag::xsd[] -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>jaxb2-maven-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <id>xjc</id>
-                        <goals>
-                            <goal>xjc</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <schemaDirectory>${schema.dir}</schemaDirectory>
-                    <outputDirectory>${output.dir}</outputDirectory>
-                    <clearOutputDir>false</clearOutputDir>
-                </configuration>
-            </plugin>
+
             <!-- end::xsd[] -->
         </plugins>
     </build>
