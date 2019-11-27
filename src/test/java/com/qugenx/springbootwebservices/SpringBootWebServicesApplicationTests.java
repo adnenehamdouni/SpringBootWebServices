@@ -1,4 +1,4 @@
-package fr.qugenx.springbootwebservices;
+package com.qugenx.springbootwebservices;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

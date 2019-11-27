@@ -1,7 +1,11 @@
 # Getting Started
 
+http://localhost:8081/ws-app/ws/countries.wsdl
+
 ### Reference Documentation
 For further reference, please consider the following sections:
+
+https://www.baeldung.com/spring-boot-soap-web-service
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/maven-plugin/)

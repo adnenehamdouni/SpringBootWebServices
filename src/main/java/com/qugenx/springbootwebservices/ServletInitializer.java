@@ -1,4 +1,4 @@
-package fr.qugenx.springbootwebservices;
+package com.qugenx.springbootwebservices;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
